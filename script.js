@@ -45,3 +45,17 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
+
+console.log(" ");
+mintNFT("NFT1", "green", "long sleeve", "diamond ring");
+console.log(" ");
+mintNFT("NFT2", "blue", "t-shirt", "gold chain");
+console.log(" ");
+mintNFT("NFT3", "brown", "hoodie", "platinum watch");
+
+
+console.log(" ");
+listNFTs();
+console.log(" ");
+getTotalSupply();
+console.log(" ");
