@@ -15,12 +15,12 @@ Assessment Requirements
 
 const nfts = []; //array to store all the NFTs
 
-function mintNFT(name, eyeColor, shirtType, bling) {
+function mintNFT(name, rank, value, power) {
     const NFT = {
         "name": name,
-        "eyeColor": eyeColor,
-        "shirtType": shirtType,
-        "bling": bling
+        "rank": rank,
+        "value": value,
+        "power": power
     };
     nfts.push(NFT); //push the NFT to the array
 
@@ -30,18 +30,30 @@ function mintNFT(name, eyeColor, shirtType, bling) {
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs() {
+    console.log(" ");
+
     nfts.forEach(nft => {
         console.log("Name: " + nft.name);
-        console.log("Eye Color: " + nft.eyeColor);
-        console.log("Shirt Type: " + nft.shirtType);
-        console.log("Bling: " + nft.bling);    
+        console.log("Rank: " + nft.rank);
+        console.log("Value: " + nft.value);
+        console.log("Power: " + nft.power);
         console.log(" ");
     });
 }
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-    console.log("Total NFTs minted: " + nfts.length);    
+    console.log("Total NFTs minted: " + nfts.length + "\n");
 }
 
 // call your functions below this line
+
+mintNFT("Ironman", "1", "Legendary", "Tech");
+
+mintNFT("Thor", "2", "Epic", "Thunder");
+
+mintNFT("Captain America", "3", "Common", "Shield");
+
+listNFTs();
+
+getTotalSupply();
