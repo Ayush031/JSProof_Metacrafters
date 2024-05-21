@@ -24,7 +24,7 @@ function mintNFT(name, rank, value, power) {
     };
     nfts.push(NFT); //push the NFT to the array
 
-    console.log("NFT minted: " + name);
+    console.log("\nNFT minted: " + name);
 }
 
 // create a "loop" that will go through an "array" of NFT's
