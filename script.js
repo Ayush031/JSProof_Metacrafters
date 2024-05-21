@@ -33,8 +33,8 @@ function listNFTs() {
     console.log(" ");
 
     nfts.forEach(nft => {
-        console.log("Name: " + nft.name);
-        console.log("Rank: " + nft.rank);
+        console.log("Name : " + nft.name);
+        console.log("Rank : " + nft.rank);
         console.log("Value: " + nft.value);
         console.log("Power: " + nft.power);
         console.log(" ");
