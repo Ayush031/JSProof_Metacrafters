@@ -48,11 +48,13 @@ function getTotalSupply() {
 
 // call your functions below this line
 
-mintNFT("Ironman", "1", "Legendary", "Tech");
+mintNFT("Ironman", "1", "Legendary", "Epic2");
 
-mintNFT("Thor", "2", "Epic", "Thunder");
+mintNFT("Thor", "2", "Mighty", "Common2");
 
-mintNFT("Captain America", "3", "Common", "Shield");
+mintNFT("Captain America", "3", "Epic34", "Rare4");
+
+mintNFT("Spidy", "4", "WebThrow", "Epic56")
 
 listNFTs();
 
